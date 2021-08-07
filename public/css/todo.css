@@ -1,0 +1,44 @@
+.wrapper-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: unset;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+    height: 100vh;
+}
+.card-title{
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(3, 3, 56);
+}
+
+.login-msg{
+    text-align: center;
+}
+
+.card-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    padding-top: 20px;
+}
+
+.card{
+    margin-top: 10px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.pagination{
+    padding-top: 20px;
+}
