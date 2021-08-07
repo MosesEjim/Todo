@@ -30,7 +30,7 @@ class UserController extends Controller
         if (Auth::attempt($credentials)) {
             return redirect()->route('todos.index');
         } else {
-            return back();
+            return back()->with('error', 'Invalid Credentials!!! Please Try Again');
         }
     }
 
